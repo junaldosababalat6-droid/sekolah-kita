@@ -7,35 +7,35 @@ import heroImage from "@/assets/hero-school.jpg";
 import principalImage from "@/assets/principal.jpg";
 
 const newsItems = [
-  {
-    id: 1,
-    title: "Siswa SMA Nusantara Raih Medali Emas Olimpiade Sains Nasional",
-    date: "10 Februari 2026",
-    excerpt: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Nusantara dalam ajang Olimpiade Sains Nasional 2026.",
-    category: "Prestasi",
-  },
-  {
-    id: 2,
-    title: "Pendaftaran Peserta Didik Baru Tahun Ajaran 2026/2027 Dibuka",
-    date: "5 Februari 2026",
-    excerpt: "SMA Nusantara membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027 mulai tanggal 1 Maret 2026.",
-    category: "Pengumuman",
-  },
-  {
-    id: 3,
-    title: "Workshop Pengembangan Kurikulum Merdeka Belajar",
-    date: "1 Februari 2026",
-    excerpt: "Para guru SMA Nusantara mengikuti workshop intensif untuk pengembangan kurikulum merdeka belajar.",
-    category: "Kegiatan",
-  },
-];
+{
+  id: 1,
+  title: "Siswa SMA Nusantara Raih Medali Emas Olimpiade Sains Nasional",
+  date: "10 Februari 2026",
+  excerpt: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Nusantara dalam ajang Olimpiade Sains Nasional 2026.",
+  category: "Prestasi"
+},
+{
+  id: 2,
+  title: "Pendaftaran Peserta Didik Baru Tahun Ajaran 2026/2027 Dibuka",
+  date: "5 Februari 2026",
+  excerpt: "SMA Nusantara membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027 mulai tanggal 1 Maret 2026.",
+  category: "Pengumuman"
+},
+{
+  id: 3,
+  title: "Workshop Pengembangan Kurikulum Merdeka Belajar",
+  date: "1 Februari 2026",
+  excerpt: "Para guru SMA Nusantara mengikuti workshop intensif untuk pengembangan kurikulum merdeka belajar.",
+  category: "Kegiatan"
+}];
+
 
 const stats = [
-  { icon: Users, value: "1.200+", label: "Siswa Aktif" },
-  { icon: BookOpen, value: "85+", label: "Tenaga Pendidik" },
-  { icon: Trophy, value: "150+", label: "Prestasi" },
-  { icon: Calendar, value: "35+", label: "Tahun Berdiri" },
-];
+{ icon: Users, value: "1.200+", label: "Siswa Aktif" },
+{ icon: BookOpen, value: "85+", label: "Tenaga Pendidik" },
+{ icon: Trophy, value: "150+", label: "Prestasi" },
+{ icon: Calendar, value: "35+", label: "Tahun Berdiri" }];
+
 
 const Index = () => {
   return (
@@ -46,21 +46,21 @@ const Index = () => {
           <img
             src={heroImage}
             alt="Kampus SMA Nusantara"
-            className="h-full w-full object-cover"
-          />
+            className="h-full w-full object-cover" />
+
           <div className="absolute inset-0 bg-primary/75" />
         </div>
         <div className="container-narrow relative px-4 py-24 md:px-8 md:py-32 lg:py-40">
           <div className="max-w-2xl">
             <div className="gold-bar mb-6" />
-            <h1 className="mb-4 font-display text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-              SMA Nusantara
+            <h1 className="mb-4 font-display text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">SMA Penabur Berkat
+
             </h1>
             <p className="mb-2 font-display text-xl text-primary-foreground/90 md:text-2xl">
               Unggul dalam Prestasi, Berkarakter dalam Kehidupan
             </p>
-            <p className="mb-8 max-w-lg text-sm leading-relaxed text-primary-foreground/70 md:text-base">
-              Membangun generasi muda Indonesia yang cerdas, kreatif, dan berakhlak mulia sejak tahun 1990.
+            <p className="mb-8 max-w-lg text-sm leading-relaxed text-primary-foreground/70 md:text-base">Membangun generasi muda Indonesia yang cerdas, kreatif, dan berakhlak mulia sejak tahun 2012
+
             </p>
             <div className="flex flex-wrap gap-3">
               <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90">
@@ -77,13 +77,13 @@ const Index = () => {
       {/* Stats */}
       <section className="border-b border-border bg-card">
         <div className="container-narrow grid grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4 md:px-8">
-          {stats.map(({ icon: Icon, value, label }) => (
-            <div key={label} className="text-center">
+          {stats.map(({ icon: Icon, value, label }) =>
+          <div key={label} className="text-center">
               <Icon className="mx-auto mb-2 h-6 w-6 text-accent" />
               <div className="font-display text-2xl font-bold text-foreground md:text-3xl">{value}</div>
               <div className="text-sm text-muted-foreground">{label}</div>
             </div>
-          ))}
+          )}
         </div>
       </section>
 
@@ -96,8 +96,8 @@ const Index = () => {
                 <img
                   src={principalImage}
                   alt="Kepala Sekolah SMA Nusantara"
-                  className="aspect-square w-full object-cover"
-                />
+                  className="aspect-square w-full object-cover" />
+
               </div>
               <div className="mt-4 text-center">
                 <p className="font-display text-lg font-semibold text-foreground">Dr. H. Ahmad Suryadi, M.Pd.</p>
@@ -145,8 +145,8 @@ const Index = () => {
             </Button>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
-            {newsItems.map((item) => (
-              <Card key={item.id} className="card-hover overflow-hidden border-0 bg-card">
+            {newsItems.map((item) =>
+            <Card key={item.id} className="card-hover overflow-hidden border-0 bg-card">
                 <CardContent className="p-6">
                   <span className="mb-3 inline-block rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-accent-foreground">
                     {item.category}
@@ -160,7 +160,7 @@ const Index = () => {
                   <p className="text-xs text-muted-foreground">{item.date}</p>
                 </CardContent>
               </Card>
-            ))}
+            )}
           </div>
           <div className="mt-6 text-center md:hidden">
             <Button asChild variant="outline">
@@ -169,8 +169,8 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>);
+
 };
 
 export default Index;
