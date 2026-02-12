@@ -27,7 +27,7 @@ const Navbar = () => {
             <span className="font-display text-lg font-bold leading-tight text-foreground">SMA Penabur Berkat Mentawai
 
             </span>
-            <span className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">BERIMAN, BERKARAKTER,, BERPRESTASI
+            <span className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">BERIMAN, BERKARAKTER, BERPRESTASI
 
             </span>
           </div>
