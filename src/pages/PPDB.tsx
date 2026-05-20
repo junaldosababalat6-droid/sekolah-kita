@@ -11,8 +11,6 @@ import Layout from "@/components/Layout";
 
 const timeline = [
   { date: "1 Maret – 30 April 2026", title: "Pendaftaran Online", desc: "Calon siswa mengisi formulir dan mengunggah berkas." },
-  { date: "5 Mei 2026", title: "Tes Seleksi", desc: "Tes akademik, wawancara, dan psikotes." },
-  { date: "15 Mei 2026", title: "Pengumuman", desc: "Hasil seleksi diumumkan di website resmi." },
   { date: "20 – 30 Mei 2026", title: "Daftar Ulang", desc: "Pembayaran dan pengambilan seragam." },
 ];
 
