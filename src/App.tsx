@@ -9,6 +9,7 @@ import Academic from "./pages/Academic";
 import News from "./pages/News";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import PPDB from "./pages/PPDB";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/berita" element={<News />} />
           <Route path="/galeri" element={<Gallery />} />
           <Route path="/kontak" element={<Contact />} />
+          <Route path="/ppdb" element={<PPDB />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
