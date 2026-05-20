@@ -10,7 +10,8 @@ const navLinks = [
 { to: "/akademik", label: "Akademik" },
 { to: "/berita", label: "Berita" },
 { to: "/galeri", label: "Galeri" },
-{ to: "/kontak", label: "Kontak" }];
+{ to: "/kontak", label: "Kontak" },
+{ to: "/ppdb", label: "PPDB", highlight: true }];
 
 
 const Navbar = () => {
