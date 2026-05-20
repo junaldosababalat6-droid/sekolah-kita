@@ -20,29 +20,29 @@ interface NewsItem {
 const initialNews: NewsItem[] = [
   {
     id: 1,
-    title: "Siswa SMA Nusantara Raih Medali Emas Olimpiade Sains Nasional",
-    content: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Nusantara dalam ajang Olimpiade Sains Nasional 2026. Tiga siswa berhasil meraih medali emas di bidang Fisika, Kimia, dan Matematika. Pencapaian ini merupakan bukti nyata dari kualitas pendidikan dan pembinaan yang dilakukan oleh SMA Nusantara.",
+    title: "Siswa SMA Penabur Berkat Raih Medali Emas Olimpiade Sains Nasional",
+    content: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Penabur Berkat dalam ajang Olimpiade Sains Nasional 2026. Tiga siswa berhasil meraih medali emas di bidang Fisika, Kimia, dan Matematika. Pencapaian ini merupakan bukti nyata dari kualitas pendidikan dan pembinaan yang dilakukan oleh SMA Penabur Berkat.",
     date: "2026-02-10",
     category: "Prestasi",
   },
   {
     id: 2,
     title: "Pendaftaran Peserta Didik Baru Tahun Ajaran 2026/2027 Dibuka",
-    content: "SMA Nusantara membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027. Pendaftaran dimulai tanggal 1 Maret 2026 secara online melalui website sekolah. Kuota yang tersedia sebanyak 320 siswa yang terbagi dalam 10 rombongan belajar.",
+    content: "SMA Penabur Berkat membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027. Pendaftaran dimulai tanggal 1 Maret 2026 secara online melalui website sekolah. Kuota yang tersedia sebanyak 320 siswa yang terbagi dalam 10 rombongan belajar.",
     date: "2026-02-05",
     category: "Pengumuman",
   },
   {
     id: 3,
     title: "Workshop Pengembangan Kurikulum Merdeka Belajar",
-    content: "Para guru SMA Nusantara mengikuti workshop intensif selama 3 hari untuk pengembangan kurikulum merdeka belajar. Workshop ini menghadirkan narasumber dari Kemendikbudristek dan bertujuan untuk meningkatkan kualitas pembelajaran di sekolah.",
+    content: "Para guru SMA Penabur Berkat mengikuti workshop intensif selama 3 hari untuk pengembangan kurikulum merdeka belajar. Workshop ini menghadirkan narasumber dari Kemendikbudristek dan bertujuan untuk meningkatkan kualitas pembelajaran di sekolah.",
     date: "2026-02-01",
     category: "Kegiatan",
   },
   {
     id: 4,
-    title: "Tim Basket SMA Nusantara Juara Tingkat Provinsi",
-    content: "Tim basket putra SMA Nusantara berhasil meraih juara 1 dalam kompetisi basket antar SMA tingkat Provinsi DKI Jakarta. Kemenangan ini diraih setelah mengalahkan 15 tim dari berbagai sekolah di Jakarta.",
+    title: "Tim Basket SMA Penabur Berkat Juara Tingkat Provinsi",
+    content: "Tim basket putra SMA Penabur Berkat berhasil meraih juara 1 dalam kompetisi basket antar SMA tingkat Provinsi DKI Jakarta. Kemenangan ini diraih setelah mengalahkan 15 tim dari berbagai sekolah di Jakarta.",
     date: "2026-01-25",
     category: "Prestasi",
   },
@@ -107,7 +107,7 @@ const News = () => {
             Berita & Pengumuman
           </h1>
           <p className="mt-3 max-w-2xl text-primary-foreground/70">
-            Informasi terbaru seputar kegiatan dan pengumuman SMA Nusantara.
+            Informasi terbaru seputar kegiatan dan pengumuman SMA Penabur Berkat.
           </p>
         </div>
       </section>

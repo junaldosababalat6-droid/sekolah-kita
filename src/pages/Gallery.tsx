@@ -24,7 +24,7 @@ const Gallery = () => {
           <div className="gold-bar mb-4" />
           <h1 className="font-display text-4xl font-bold text-primary-foreground md:text-5xl">Galeri Foto</h1>
           <p className="mt-3 max-w-2xl text-primary-foreground/70">
-            Dokumentasi kegiatan dan momen berharga di SMA Nusantara.
+            Dokumentasi kegiatan dan momen berharga di SMA Penabur Berkat.
           </p>
         </div>
       </section>

@@ -12,10 +12,10 @@ const Footer = () => {
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent">
                 <GraduationCap className="h-5 w-5 text-accent-foreground" />
               </div>
-              <span className="font-display text-lg font-bold">SMA Nusantara</span>
+              <span className="font-display text-lg font-bold">SMA Penabur Berkat</span>
             </div>
             <p className="text-sm leading-relaxed opacity-80">
-              Mendidik generasi unggul, berkarakter, dan siap menghadapi tantangan masa depan.
+              Mendidik generasi yang beriman, berkarakter, dan berprestasi.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 shrink-0" />
-                <span>info@smanusantara.sch.id</span>
+                <span></span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 border-t border-primary-foreground/20 pt-6 text-center text-xs opacity-60">
-          © {new Date().getFullYear()} SMA Nusantara. Hak Cipta Dilindungi.
+          © {new Date().getFullYear()} SMA Penabur Berkat. Hak Cipta Dilindungi.
         </div>
       </div>
     </footer>
