@@ -73,7 +73,7 @@ const PPDB = () => {
             <div className="gold-bar mx-auto mb-4" />
             <h2 className="font-display text-3xl font-bold text-foreground">Jadwal PPDB</h2>
           </div>
-          <div className="grid gap-5 md:grid-cols-4">
+          <div className="grid gap-5 md:grid-cols-2 md:max-w-2xl mx-auto">
             {timeline.map((t, i) => (
               <Card key={i} className="card-hover border-0">
                 <CardContent className="p-6">
