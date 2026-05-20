@@ -6,50 +6,53 @@
 
 @layer base {
   :root {
+    /* Brand palette from SMA Penabur Berkat logo:
+       Deep Blue #2F4F8F, Bright Yellow #F4E400, Red Accent #C62828 */
     --background: 210 20% 98%;
-    --foreground: 210 50% 10%;
+    --foreground: 218 45% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 50% 10%;
+    --card-foreground: 218 45% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 50% 10%;
+    --popover-foreground: 218 45% 12%;
 
-    --primary: 210 80% 25%;
+    --primary: 218 50% 37%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 30% 92%;
-    --secondary-foreground: 210 80% 25%;
+    --secondary: 218 30% 92%;
+    --secondary-foreground: 218 50% 30%;
 
     --muted: 210 20% 95%;
-    --muted-foreground: 210 15% 45%;
+    --muted-foreground: 218 15% 42%;
 
-    --accent: 42 90% 50%;
-    --accent-foreground: 210 80% 15%;
+    --accent: 57 100% 48%;
+    --accent-foreground: 218 60% 18%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 64% 47%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 88%;
-    --input: 210 20% 88%;
-    --ring: 210 80% 25%;
+    --border: 218 20% 88%;
+    --input: 218 20% 88%;
+    --ring: 218 50% 37%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 210 80% 20%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 42 90% 50%;
-    --sidebar-primary-foreground: 210 80% 15%;
-    --sidebar-accent: 210 60% 30%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 210 60% 30%;
-    --sidebar-ring: 42 90% 50%;
+    --sidebar-background: 218 55% 25%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 57 100% 48%;
+    --sidebar-primary-foreground: 218 60% 18%;
+    --sidebar-accent: 218 45% 35%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 218 45% 32%;
+    --sidebar-ring: 57 100% 48%;
 
     /* Custom tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(210 80% 20%) 0%, hsl(210 60% 35%) 100%);
-    --gold-gradient: linear-gradient(135deg, hsl(42 90% 50%) 0%, hsl(38 85% 55%) 100%);
-    --card-shadow: 0 4px 24px -4px hsl(210 50% 10% / 0.08);
-    --card-shadow-hover: 0 8px 32px -4px hsl(210 50% 10% / 0.15);
+    --hero-gradient: linear-gradient(135deg, hsl(218 55% 22%) 0%, hsl(218 50% 40%) 100%);
+    --gold-gradient: linear-gradient(135deg, hsl(57 100% 50%) 0%, hsl(48 95% 52%) 100%);
+    --red-gradient: linear-gradient(135deg, hsl(0 64% 47%) 0%, hsl(4 70% 52%) 100%);
+    --card-shadow: 0 4px 24px -4px hsl(218 50% 12% / 0.08);
+    --card-shadow-hover: 0 8px 32px -4px hsl(218 50% 12% / 0.15);
 
     --font-display: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', system-ui, sans-serif;
