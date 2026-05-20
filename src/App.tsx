@@ -9,6 +9,7 @@ import Academic from "./pages/Academic";
 import News from "./pages/News";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import PPDB from "./pages/PPDB";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
