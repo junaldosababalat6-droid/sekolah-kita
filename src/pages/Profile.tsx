@@ -49,12 +49,12 @@ const Profile = () => {
                 terkemuka di Jakarta.
               </p>
               <p>
-                Selama lebih dari tiga dekade, SMA Nusantara telah meluluskan lebih dari 10.000 alumni 
+                Selama lebih dari tiga dekade, SMA Penabur Berkat telah meluluskan lebih dari 10.000 alumni 
                 yang kini tersebar di berbagai sektor, dari akademisi hingga pengusaha sukses. Banyak 
                 alumni yang melanjutkan pendidikan ke universitas-universitas ternama di dalam dan luar negeri.
               </p>
               <p>
-                Pada tahun 2020, SMA Nusantara mendapatkan akreditasi A dari BAN-S/M dan terus 
+                Pada tahun 2020, SMA Penabur Berkat mendapatkan akreditasi A dari BAN-S/M dan terus 
                 berkomitmen untuk meningkatkan mutu pendidikan sesuai dengan perkembangan zaman.
               </p>
             </div>
