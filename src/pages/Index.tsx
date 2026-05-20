@@ -110,7 +110,7 @@ const Index = () => {
                 Sambutan Kepala Sekolah
               </h2>
               <p className="leading-relaxed text-muted-foreground">
-                Assalamu'alaikum Warahmatullahi Wabarakatuh. Selamat datang di website resmi SMA Nusantara. 
+                Assalamu'alaikum Warahmatullahi Wabarakatuh. Selamat datang di website resmi SMA Penabur Berkat. 
                 Sebagai lembaga pendidikan yang telah berpengalaman lebih dari tiga dekade, kami berkomitmen 
                 untuk memberikan pendidikan berkualitas yang tidak hanya mengembangkan kecerdasan intelektual, 
                 tetapi juga membentuk karakter dan akhlak mulia.

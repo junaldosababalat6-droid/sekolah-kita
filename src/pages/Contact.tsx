@@ -10,7 +10,7 @@ import { toast } from "sonner";
 const contactInfo = [
   { icon: MapPin, label: "Alamat", value: "Jl. Pendidikan No. 1, Kebayoran Baru, Jakarta Selatan 12345" },
   { icon: Phone, label: "Telepon", value: "(021) 1234-5678" },
-  { icon: Mail, label: "Email", value: "info@smanusantara.sch.id" },
+  { icon: Mail, label: "Email", value: "" },
   { icon: Clock, label: "Jam Operasional", value: "Senin - Jumat, 07:00 - 16:00 WIB" },
 ];
 
@@ -34,7 +34,7 @@ const Contact = () => {
           <div className="gold-bar mb-4" />
           <h1 className="font-display text-4xl font-bold text-primary-foreground md:text-5xl">Hubungi Kami</h1>
           <p className="mt-3 max-w-2xl text-primary-foreground/70">
-            Kami siap membantu menjawab pertanyaan Anda seputar SMA Nusantara.
+            Kami siap membantu menjawab pertanyaan Anda seputar SMA Penabur Berkat.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ const Contact = () => {
               {/* Map */}
               <div className="overflow-hidden rounded-xl border border-border">
                 <iframe
-                  title="Lokasi SMA Nusantara"
+                  title="Lokasi SMA Penabur Berkat"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2!2d106.8!3d-6.24!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTQnMjQuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sid!2sid!4v1"
                   width="100%"
                   height="200"

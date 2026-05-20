@@ -30,7 +30,7 @@ const Profile = () => {
             Profil Sekolah
           </h1>
           <p className="mt-3 max-w-2xl text-primary-foreground/70">
-            Mengenal lebih dekat SMA Nusantara, sekolah unggulan yang telah mencetak ribuan lulusan berkualitas.
+            Mengenal lebih dekat SMA Penabur Berkat, sekolah unggulan yang telah mencetak ribuan lulusan berkualitas.
           </p>
         </div>
       </section>
@@ -43,7 +43,7 @@ const Profile = () => {
             <h2 className="mb-6 font-display text-3xl font-bold text-foreground">Sejarah Singkat</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                SMA Nusantara didirikan pada tahun 1990 oleh Yayasan Pendidikan Nusantara dengan visi 
+                SMA Penabur Berkat didirikan pada tahun 1990 oleh Yayasan Pendidikan Nusantara dengan visi 
                 menciptakan lembaga pendidikan menengah atas yang berkualitas dan terjangkau. Bermula dari 
                 3 ruang kelas dengan 90 siswa, sekolah ini terus berkembang menjadi salah satu SMA 
                 terkemuka di Jakarta.
