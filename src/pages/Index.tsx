@@ -9,23 +9,23 @@ import principalImage from "@/assets/principal.jpg";
 const newsItems = [
 {
   id: 1,
-  title: "Siswa SMA Nusantara Raih Medali Emas Olimpiade Sains Nasional",
+  title: "Siswa SMA Penabur Berkat Raih Medali Emas Olimpiade Sains Nasional",
   date: "10 Februari 2026",
-  excerpt: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Nusantara dalam ajang Olimpiade Sains Nasional 2026.",
+  excerpt: "Prestasi membanggakan kembali diraih oleh siswa-siswi SMA Penabur Berkat dalam ajang Olimpiade Sains Nasional 2026.",
   category: "Prestasi"
 },
 {
   id: 2,
   title: "Pendaftaran Peserta Didik Baru Tahun Ajaran 2026/2027 Dibuka",
   date: "5 Februari 2026",
-  excerpt: "SMA Nusantara membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027 mulai tanggal 1 Maret 2026.",
+  excerpt: "SMA Penabur Berkat membuka pendaftaran peserta didik baru untuk tahun ajaran 2026/2027 mulai tanggal 1 Maret 2026.",
   category: "Pengumuman"
 },
 {
   id: 3,
   title: "Workshop Pengembangan Kurikulum Merdeka Belajar",
   date: "1 Februari 2026",
-  excerpt: "Para guru SMA Nusantara mengikuti workshop intensif untuk pengembangan kurikulum merdeka belajar.",
+  excerpt: "Para guru SMA Penabur Berkat mengikuti workshop intensif untuk pengembangan kurikulum merdeka belajar.",
   category: "Kegiatan"
 }];
 
@@ -45,7 +45,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Kampus SMA Nusantara"
+            alt="Kampus SMA Penabur Berkat"
             className="h-full w-full object-cover" />
 
           <div className="absolute inset-0 bg-primary/75" />
@@ -95,7 +95,7 @@ const Index = () => {
               <div className="overflow-hidden rounded-2xl shadow-lg">
                 <img
                   src={principalImage}
-                  alt="Kepala Sekolah SMA Nusantara"
+                  alt="Kepala Sekolah SMA Penabur Berkat"
                   className="aspect-square w-full object-cover" />
 
               </div>
